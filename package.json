@@ -1,16 +1,21 @@
 {
-  "name": "errortrap",
-  "version": "1.0.2",
+  "name": "@servicebus/errortrap",
+  "version": "0.0.0-development",
   "description": "Trap and log uncaught errors using llog.",
   "author": "support@electronifie.com",
-  "homepage": "https://github.com/electronifie/error-trap",
+  "homepage": "https://github.com/servicebus/errortrap",
   "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/electronifie/error-trap.git"
+    "url": "https://github.com/servicebus/errortrap.git"
   },
   "dependencies": {
-    "bunyan": "^1.5.1",
-    "llog": "0.0.12"
+    "llog": "0.2.0"
+  },
+  "devDependencies": {
+    "jest": "26.0.1"
   }
 }
